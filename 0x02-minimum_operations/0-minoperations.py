@@ -1,8 +1,11 @@
 #!/usr/bin/python3
+"""Returns minimum number of operations to copy paste n chars."""
 
-# divide the number by the smallest possible prime and continuing with the quotient
+
+# divide the number by the smallest possible prime and
+# continuing with the quotient
 def minOperations(n: int) -> int:
-    """Return minimum number of operations to copy paste n chars"""
+    """Return minimum number of operations to copy paste n chars."""
     i = 2
     factors = []
     while i * i <= n:
